@@ -1,0 +1,47 @@
+*{
+    background-color: white;
+    font-size: 40px;
+    font-style: normal;
+    padding: 15px;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+.headers{
+    font-size: larger;
+    font-style: normal;
+    color: red;
+}
+.navbar{
+    font-size: 25px;
+}
+#image{
+    margin-left: 900px;
+    width: 750px;
+    height: 900px;
+    position: absolute;
+    display: flex;
+}
+#head1{
+    font-size: larger;
+}
+#p1{
+    font-size: smaller;
+}
+.app-button{
+    background-color: rgba(255, 0, 64, 0.979);
+    color: #f7f7f7;
+    font-size: 30px;
+    align-content: center;
+}
+#loginButton{
+    color: blue;
+    font-size: 21px;
+}
+#explorebutton{
+    color: rgba(255, 0, 64, 0.979);
+}
+.topRightB{
+    margin-left: 1200px;
+    padding-top: 1px;
+}
+
