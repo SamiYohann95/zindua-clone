@@ -1,31 +1,49 @@
 *{
     background-color: white;
-    font-size: 40px;
+    font-size: 25px;
     font-style: normal;
-    padding: 15px;
+    padding: 10px;
     padding-left: 3px;
     padding-top: 5px;
 }
-.headers{
-    font-size: larger;
-    font-style: normal;
-    color: red;
+#TopBar{
+    font-size: xx-small;
+    padding-inline: 1px;
+    display: flex;
 }
-.navbar{
-    font-size: 25px;
+#ZindImage{
+width: 50px;
+height: 100px;
+display: flex;
+padding: 1px;
+padding-left: 5px;
 }
-#image{
+.topRightB{
     margin-left: 900px;
-    width: 750px;
-    height: 900px;
-    position: absolute;
+    font-size: small;
+    text-align: right;
+    justify-content: center;
+}
+.MainContent{
     display: flex;
 }
 #head1{
     font-size: larger;
 }
+.headers{
+    color: rgb(255, 0, 51);
+    font-size: 35px;
+}
 #p1{
     font-size: smaller;
+}
+#image{
+    margin-left: 150px;
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    display: flex;
+    border-radius: 5%;
 }
 .app-button{
     background-color: rgba(255, 0, 64, 0.979);
@@ -40,8 +58,77 @@
 #explorebutton{
     color: rgba(255, 0, 64, 0.979);
 }
-.topRightB{
-    margin-left: 1200px;
-    padding-top: 1px;
+.bottom section{
+    background-color: black;
 }
+.wrapper{
+    width: 600px;
+    height: 150px;
+}
+.testimg{
+    width: 55px;
+    height: 55px;
+}
+#TheMainDiv{
+    align-content: center;
+    border-top: crimson;
+    display: flex;
+    font-size: 15px;
+}
+.iconlogos{
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+.upper section{
+    display: flex;
+}
+.sectHead{
+    color: crimson;
+}
+.finbutton{
+    border-color: rgb(255, 0, 51);
+    font-style: normal;
+    border-radius: 5%;
+    border-width: 3px;
+    color: crimson;
+    font-display: rgb(255, 0, 55);
+}
+#bot{
+    background-color: black;
+    display: flex;
+    margin-left: 1%;
 
+}
+#H2{
+    font-size: larger;
+    margin-left: 280px;
+}
+#H3{
+    margin-left: 500px;
+    font-size: larger;
+    color: rgb(255, 0, 51);
+}
+#bold{
+    color: rgb(255, 0, 51);
+    font-size: larger;
+}
+#lastbut1{
+    margin-left: 470px;
+    color: black;
+    background-color: #f7f7f7;
+    border-color: black;
+    font-size: large;
+    border-radius: 7%;
+}
+#lastbut2{
+    margin-left: 10px;
+    color: #f7f7f7;
+    background-color: black;
+    border-color: #f7f7f7;
+    font-size: large;
+    border-radius: 7%;
+}
+#bothbut{
+    display: flex;
+}
